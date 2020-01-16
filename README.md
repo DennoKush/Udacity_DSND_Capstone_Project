@@ -14,6 +14,15 @@ You'll be given transactional data showing user purchases made on the app includ
 
 Keep in mind as well that someone using the app might make a purchase through the app without having received an offer or seen an offer.
 
+# Problem Statement
+This project aim is to create a recommender system for Starbucks users. The system should consider whether a user likes being given offers or not, and which offer user should receive and recommend such offers.
+
+Steps involved in creating the recommender system include:
+1. Data cleaning.
+2. Exploratory data analysis
+3. Feature engineering
+4. create recommender engine which takes user_id, searches for 10 similar users and recommends top 3 offers the 10 users liked best.
+
 
 # File Description
 Here is a quick overview of data files provided:
